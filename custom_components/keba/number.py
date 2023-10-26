@@ -29,7 +29,7 @@ async def async_setup_entry(
         native_unit_of_measurement=UnitOfElectricCurrent.AMPERE,
         native_min_value=6,  # technical minimum
         native_max_value=63,  # technical maximum
-        native_step=1,  # technically possible step
+        native_step=0.001,  # technically possible step
     )
     entities.extend([KebaNumber(charging_station, number_description)])
     async_add_entities(entities, True)
