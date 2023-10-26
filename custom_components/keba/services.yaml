@@ -85,7 +85,7 @@ set_current:
         number:
           min: 6
           max: 63
-          step: 1
+          step: 0.001
           unit_of_measurement: A
     delay:
       name: Delay
@@ -137,7 +137,7 @@ set_failsafe:
         number:
           min: 6
           max: 63
-          step: 1
+          step: 0.001
           unit_of_measurement: A
     persist:
       name: Failsafe persist
