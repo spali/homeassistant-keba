@@ -1,4 +1,5 @@
 """Support for KEBA charging station sensors."""
+
 from __future__ import annotations
 
 from collections.abc import Mapping
@@ -131,7 +132,6 @@ SENSOR_TYPES = [
         key="Max curr %",
         name="Maximum current % (system)",
         native_unit_of_measurement=PERCENTAGE,
-        device_class=SensorDeviceClass.CURRENT,
         entity_registry_enabled_default=False,
     ),
     SensorEntityDescription(
