@@ -1,6 +1,6 @@
 {
   "domain": "keba",
-  "name": "Keba Charging Station",
+  "name": "Keba Charging Station (spali)",
   "codeowners": ["@dannerph"],
   "config_flow": true,
   "dependencies": ["network"],
