@@ -1,5 +1,5 @@
 {
-  "name": "Keba Charging Station (beta)",
+  "name": "Keba Charging Station (spali)",
   "render_readme": true,
   "domains": ["sensor"],
   "iot_class": "cloud_poll"
